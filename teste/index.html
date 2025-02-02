@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="LOGO-GRUPO-MOTIRO_preto_AF_.png"
+      type="image/x-icon"
+    />
+    <title>Grupo Motiró / Home</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="/LOGO-GRUPO-MOTIRO_preto_AF_.png"
+        alt="Logo"
+        class="header-image"
+      />
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">sobre</a>
+        <a href="#services">serviços</a>
+        <a href="#projects">projetos</a>
+        <a href="#contact">contato</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="info-btn" class="fas fa-info-circle"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          placeholder="Pesquisar..."
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <form action="" class="login-form">
+        <h3>login</h3>
+        <input type="email" placeholder="Insira seu email" class="box" />
+        <input type="password" placeholder="Insira sua senha" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">Lembre-se de mim</label>
+          <a href="#">Esqueceu a senha?</a>
+        </div>
+        <input type="submit" value="Entrar" class="btn" />
+        <p>Não tem uma conta? <a href="#">criar em segundos!</a></p>
+      </form>
+    </header>
+
+    <div class="contact-info">
+      <div id="close-contact-info" class="fas fa-times"></div>
+
+      <div class="info">
+        <i class="fas fa-phone"></i>
+        <h3>telefone</h3>
+        <p>+55 11 99999-9999</p>
+        <p>+55 11 99999-9999</p>
+      </div>
+
+      <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h3>email</h3>
+        <p>exemplo@gmail.com</p>
+        <p>exemplo2@gmail.com</p>
+      </div>
+
+      <div class="info">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>endereço</h3>
+        <p>Av. Getúlio Vargas, 70</p>
+      </div>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </div>
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-1.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Construindo sonhos realizando histórias</h3>
+              <p>
+                Com expertise e paixão, transformamos suas ideias em projetos
+                que inspiram e duram para sempre.
+              </p>
+              <a href="#about" class="btn">saiba mais</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-2.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Excelência que transforma, inovação que inspira</h3>
+              <p>
+                Unimos tecnologia de ponta e compromisso com a qualidade para
+                entregar soluções que superam expectativas
+              </p>
+              <a href="#about" class="btn">saiba mais</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-3.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Construindo o Futuro, Hoje!</h3>
+              <p>
+                Inovação, qualidade e compromisso em cada projeto. No Grupo
+                Motiró, transformamos sonhos em realidade, criando espaços que
+                inspiram e elevam a sua experiência.
+              </p>
+              <a href="#about" class="btn">saiba mais</a>
+            </div>
+          </section>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading">Sobre nós</h1>
+
+      <div class="row">
+        <div class="video">
+          <video src="images/about-vid.mp4" loop muted autoplay></video>
+        </div>
+
+        <div class="content">
+          <h3>Forneceremos o melhor trabalho que você sonhou!</h3>
+          <p>
+            Cada detalhe pensado para transformar seu sonho em realidade, com
+            qualidade, inovação e compromisso.
+          </p>
+          <a href="#services" class="btn">Saiba Mais</a>
+        </div>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <h3>10+</h3>
+          <p>Anos de Experiência</p>
+        </div>
+
+        <div class="box">
+          <h3>1500+</h3>
+          <p>Projetos Concluidos</p>
+        </div>
+
+        <div class="box">
+          <h3>790+</h3>
+          <p>Clientes Satisfeitos</p>
+        </div>
+
+        <div class="box">
+          <h3>45+</h3>
+          <p>Especialistas Conosco</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h1 class="heading">Nossos Serviços</h1>
+
+      <div class="box-container">
+        <div class="box">
+          ß
+          <img src="images/service-1.png" alt="" />
+          <h3>Desenvolvimento Imobiliário</h3>
+          <p>
+            Transformamos terrenos em empreendimentos inovadores, garantindo
+            planejamento estratégico e valorização dos imóveis.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-2.png" alt="" />
+          <h3>Construção e Execução de Obras</h3>
+          <p>
+            Da fundação ao acabamento, entregamos qualidade e eficiência em cada
+            detalhe dos nossos projetos.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-3.png" alt="" />
+          <h3>Arquitetura e Design Personalizado</h3>
+          <p>
+            Criamos espaços funcionais e sofisticados, combinando estética,
+            conforto e inovação.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-4.png" alt="" />
+          <h3>Sustentabilidade e Eficiência Energética</h3>
+          <p>
+            Projetos com soluções sustentáveis, utilizando materiais ecológicos
+            e tecnologias para economia de energia e recursos.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-5.png" alt="" />
+          <h3>Consultoria e Gestão de Projetos</h3>
+          <p>
+            Planejamento completo para obras e empreendimentos, garantindo
+            prazos, orçamentos e execução sem imprevistos..
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h1 class="heading">Nossos Projetos</h1>
+
+      <div class="box-container">
+        <a href="images/project-1.jpg" class="box">
+          <div class="image">
+            <img src="images/predio1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Motiró Suzano</h3>
+              <p>Rua Monsenhor Nuno, 44</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="images/project-2.jpg" class="box">
+          <div class="image">
+            <img src="images/predio2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Motiró Parque Central</h3>
+              <p>Av. Dr. Antônio Álvaro, 350</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="images/project-3.jpg" class="box">
+          <div class="image">
+            <img src="images/predio3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Motiró Figueiras</h3>
+              <p>Rua das Figueiras - Jardim</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="images/project-4.jpg" class="box">
+          <div class="image">
+            <img src="images/predio4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Motiró Jump Assunção</h3>
+              <p>Rua do Salto, 50 - Vila Assunção</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+          `
+        </a>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <h1 class="heading">Feedbacks dos nossos Clientes</h1>
+
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              Profissionais incríveis! Desde o primeiro contato, fui muito bem
+              atendido. A entrega foi ágil, e a qualidade superou minhas
+              expectativas. Recomendo!
+            </p>
+            <div class="user">
+              <img src="images/pic-1.png" alt="" />
+              <div class="info">
+                <h3>João Ribeiro</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              O Grupo Motiró realizou meu sonho com excelência. Cada detalhe foi
+              pensado para garantir conforto e sofisticação. Estou muito
+              satisfeito!
+            </p>
+            <div class="user">
+              <img src="images/pic-2.png" alt="" />
+              <div class="info">
+                <h3>Julia Silva</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Ótima experiência! A equipe sempre esteve disponível para tirar
+              dúvidas, e o resultado final ficou perfeito. Trabalho impecável!
+            </p>
+            <div class="user">
+              <img src="images/pic-3.png" alt="" />
+              <div class="info">
+                <h3>Matheus Cunha</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Serviço de altíssima qualidade! Desde o planejamento até a
+              entrega, tudo foi feito com muito profissionalismo e dedicação.
+              Recomendo sem dúvidas!
+            </p>
+            <div class="user">
+              <img src="images/pic-4.png" alt="" />
+              <div class="info">
+                <h3>Debora Mendes</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Ótima experiência! A equipe sempre esteve disponível para tirar
+              dúvidas, e o resultado final ficou perfeito. Trabalho impecável!
+            </p>
+            <div class="user">
+              <img src="images/pic-5.png" alt="" />
+              <div class="info">
+                <h3>Felipe Lopes</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Projetos modernos e bem estruturados! Fiquei impressionado com a
+              qualidade dos materiais e o acabamento impecável. Superou minhas
+              expectativas!
+            </p>
+            <div class="user">
+              <img src="images/pic-6.png" alt="" />
+              <div class="info">
+                <h3>Lia Medeiros</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading">Entre em contato</h1>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.112981930344!2d-46.55838868447571!3d-23.70437777249859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42377bb6d3c1%3A0x3b9d7a1a8f0b8e0a!2sAv.%20Get%C3%BAlio%20Vargas%2C%2070%20-%208%C2%BA%20Andar%20-%20Conjunto%2081%2C%20Baeta%20Neves%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009711-000!5e0!3m2!1spt-BR!2sbr!4v1699472345678!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="">
+          <h3>entre em contato</h3>
+          <input type="text" placeholder="Nome" class="box" />
+          <input type="email" placeholder="Email" class="box" />
+          <input type="number" placeholder="Celular" class="box" />
+          <textarea
+            name=""
+            placeholder="Mensagem"
+            class="box"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="Enviar mensagem" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">noticias & atualizações</h1>
+
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>lider no mercado</h3>
+              <p>
+                Nesse blog você irá entender como conseguimos o feito de ser
+                lider em um mercado tão desafiador
+              </p>
+              <a href="#" class="btn">Saiba Mais</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Especialistas a sua disposição</h3>
+              <p>
+                Nesse blog você irá conhecer e entender como sempre contamos com
+                os melhores especialistas do mercado
+              </p>
+              <a href="#" class="btn">Saiba Mais</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>A inovação & sucesso!</h3>
+              <p>
+                Nesse blog você irá saber como nosso grupo conquistou o sucesso
+                tão rapidamente
+              </p>
+              <a href="#" class="btn">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logo-container">
+      <div class="swiper logo-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-1.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-2.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-3.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-4.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-5.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="credit">
+        Criado por
+        <a
+          href="https://lucasantgomes.github.io/lucasantgomes/"
+          target="_blank"
+        >
+          <span>Lucas Antonio Gomes</span>
+        </a>
+        | Direitos reservados
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".projects .box-container"));
+    </script>
+  </body>
+</html>
